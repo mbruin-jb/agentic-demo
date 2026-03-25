@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YoungCapital — Agentic Coding Skills</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="progress-bar"></div>
+
+  <div id="loader">
+    <div class="loader-text">Loading<span class="loader-dots">...</span></div>
+    <div class="loader-bar"><div class="loader-fill" id="loader-fill"></div></div>
+  </div>
+
+  <div id="scroll-container">
+
+    <!-- ── HERO ──────────────────────────────────────────────────── -->
+    <section id="hero" class="scroll-section section-hero">
+      <div class="hero-inner">
+        <span class="hero-label">YOUNGCAPITAL × AGENTIC CODING</span>
+        <h1 class="hero-title">
+          <span class="hero-word">9 APPS</span>
+          <span class="hero-word accent">SHIPPED</span>
+        </h1>
+        <p class="hero-sub">AI extraction. 100K matching. WAT framework. All proven.</p>
+      </div>
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ── CANVAS ────────────────────────────────────────────────── -->
+    <div id="canvas-wrap"><canvas id="scroll-canvas"></canvas></div>
+    <div id="dark-overlay"></div>
+
+    <!-- ── 002: SCHILD PLATFORM ──────────────────────────────── -->
+    <section class="scroll-section section-content align-left"
+             data-enter="10" data-leave="21" data-animation="fade-up">
+      <div class="section-inner">
+        <span class="section-label">002 / SCHILD PLATFORM</span>
+        <h2 class="section-heading">Unified<br>Campaign &<br>Recruiter Desk</h2>
+        <p class="section-body">Public registration with AI skill profiling feeds into a recruiter portal. ESCO search, candidate map, vacancy matcher, military translator, mobilization dashboard. 86K pool migrated.</p>
+      </div>
+    </section>
+
+    <!-- ── 003: BACKFILL DESK ────────────────────────────────── -->
+    <section class="scroll-section section-content align-right"
+             data-enter="22" data-leave="33" data-animation="slide-left">
+      <div class="section-inner">
+        <span class="section-label">003 / BACKFILL DESK</span>
+        <h2 class="section-heading">6 AI Views<br>One Portal</h2>
+        <p class="section-body">ESCO semantic search via ChromaDB. AI role generation with Gemini 2.0 Flash. Leaflet maps for 100K candidates. Vacancy skill extraction. Mobilization simulation. Military-to-civilian translator.</p>
+        <div class="app-tags">
+          <span class="app-tag">ChromaDB</span>
+          <span class="app-tag">Gemini</span>
+          <span class="app-tag">Leaflet</span>
+          <span class="app-tag">ESCO</span>
+          <span class="app-tag">FastAPI</span>
+          <span class="app-tag">React 19</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 004: DOCUMENT AI ──────────────────────────────────── -->
+    <section class="scroll-section section-content align-left"
+             data-enter="34" data-leave="45" data-animation="scale-up">
+      <div class="section-inner">
+        <span class="section-label">004 / DOCUMENT AI</span>
+        <h2 class="section-heading">65 Answers<br>From Every<br>CAO</h2>
+        <p class="section-body">Two-layer extraction: Google Document AI (OCR) → Vertex AI Gemini extracts 65 structured answers from Dutch labor agreements. Confidence scoring per question. 5 concurrent extractions.</p>
+        <div class="code-block">
+          <div class="code-line"><span class="code-prompt">Layer 1</span> Document AI OCR (eu region)</div>
+          <div class="code-line"><span class="code-prompt">Layer 2</span> Gemini gemini-3-pro-preview</div>
+          <div class="code-line"><span class="code-prompt">Schema</span> 40 salary + 25 labor questions</div>
+          <div class="code-line dim"><span class="code-prompt">Alt</span> CAO Parser: analyst + validator agents (fast, no OCR)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MARQUEE ───────────────────────────────────────────── -->
+    <section class="scroll-section section-marquee"
+             data-enter="46" data-leave="54">
+      <div class="marquee-wrap" data-scroll-speed="-18">
+        <div class="marquee-text">AGENTIC RECRUITMENT — </div>
+      </div>
+      <div class="marquee-wrap marquee-reverse" data-scroll-speed="12">
+        <div class="marquee-text">EXTRACT — MATCH — TRANSLATE — </div>
+      </div>
+      <div class="marquee-wrap" data-scroll-speed="-8">
+        <div class="marquee-text">100K CANDIDATES — 9 APPS — ZERO VAPORWARE — </div>
+      </div>
+    </section>
+
+    <!-- ── 005: SCRAPER + WAT ────────────────────────────────── -->
+    <section class="scroll-section section-content align-right"
+             data-enter="55" data-leave="66" data-animation="rotate-in">
+      <div class="section-inner">
+        <span class="section-label">005 / WAT FRAMEWORK</span>
+        <h2 class="section-heading">Workflows<br>Agents<br>Tools</h2>
+        <p class="section-body">Clean three-layer separation. Workflows are markdown SOPs. Agents do AI reasoning. Tools are deterministic Python scripts. 7 tools, 1,784 lines of code. Firecrawl integration.</p>
+        <div class="code-block">
+          <div class="code-line"><span class="code-prompt">W</span> workflows/*.md (procedures)</div>
+          <div class="code-line"><span class="code-prompt">A</span> Claude (reasoning + orchestration)</div>
+          <div class="code-line"><span class="code-prompt">T</span> tools/*.py (scrape, find DMUs, build leads)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 006: AGENTIC RECRUITER + CAMPAIGN ────────────────── -->
+    <section class="scroll-section section-content align-left"
+             data-enter="67" data-leave="77" data-animation="slide-right">
+      <div class="section-inner">
+        <span class="section-label">006 / STATE MACHINES</span>
+        <h2 class="section-heading">Contract-First<br>Recruiter</h2>
+        <p class="section-body">7-state lifecycle with gate enforcement. 9 skill contracts. Deterministic top-5 ranking — pure function, no LLM needed. Append-only event logging. Plus: 34/34 campaign tasks delivered across 8 workstreams.</p>
+        <div class="app-tags">
+          <span class="app-tag">Agentic Recruiter</span>
+          <span class="app-tag">Declaratie Steekproef</span>
+          <span class="app-tag">CV Database</span>
+          <span class="app-tag">Campaign 34/34</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── STATS ─────────────────────────────────────────────── -->
+    <section class="scroll-section section-stats"
+             data-enter="78" data-leave="88" data-animation="stagger-up">
+      <div class="stats-grid">
+        <div class="stat"><span class="stat-number" data-value="9">0</span><span class="stat-label">Apps Shipped</span></div>
+        <div class="stat"><span class="stat-number" data-value="100">0</span><span class="stat-suffix">K</span><span class="stat-label">Candidate Pool</span></div>
+        <div class="stat"><span class="stat-number" data-value="65">0</span><span class="stat-label">CAO Questions</span></div>
+        <div class="stat"><span class="stat-number" data-value="34">0</span><span class="stat-suffix">/34</span><span class="stat-label">Campaign Tasks</span></div>
+        <div class="stat"><span class="stat-number" data-value="7">0</span><span class="stat-label">Scraper Tools</span></div>
+        <div class="stat"><span class="stat-number" data-value="0">0</span><span class="stat-label">Vaporware</span></div>
+      </div>
+    </section>
+
+    <!-- ── CTA ───────────────────────────────────────────────── -->
+    <section class="scroll-section section-cta"
+             data-enter="91" data-leave="100" data-animation="fade-up" data-persist="true">
+      <div class="cta-inner">
+        <span class="section-label">007 / ALL PROVEN</span>
+        <h2 class="cta-heading">All Code.<br>No Slides.</h2>
+        <p class="cta-body">Every app verified through code inspection, builds, and real data. SCHILD · Backfill Desk · Document-AI · CAO Parser · CV Database · Scraper · Declaratie · Agentic Recruiter · Campaign.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

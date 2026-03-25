@@ -1,0 +1,12 @@
+node_modules/
+frames/
+videos/
+*.mp4
+generate_video.py
+generate_frames.py
+capture.mjs
+loop-plus-state.md
+package.json
+package-lock.json
+.DS_Store
+*.output
